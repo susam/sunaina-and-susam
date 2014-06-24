@@ -1,0 +1,191 @@
+/* General */
+body {
+    color: #333333;
+    font-family: helvetica, arial, sans-serif;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background: #2e0854;
+    color: #eeeeee;
+    line-height: 4em;
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 3em;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+a:link, a:visited {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:focus, a:hover, a:active {
+    text-decoration: underline;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+
+
+/* Layout */
+#main {
+    background: #e0d0f0;
+    color: #2e0854;
+    border: 1px solid #807090;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+}
+
+#content {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.center {
+    text-align: center
+}
+
+.shrinkwrap {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+/* Welcome */
+#welcome img {
+    width: 100%;
+    max-width: 840px;
+}
+
+
+/* Wedding ceremony */
+.sunaina {
+    color: #f52887;
+}
+
+.susam {
+    color: #1589ff;
+}
+
+.map {
+    margin: 0.5em 0;
+    border: 1px solid #807090;
+    display: inline-block;
+}
+
+#googlemap {
+    width: 600px;
+    height: 450px;
+    max-width: 90%;
+}
+
+#staticmap {
+    max-width: 90%;
+}
+
+
+/* Story */
+.music .separator {
+    color: #666;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
+/* Album */
+#album div {
+    overflow: auto;
+    border: 3px solid #807090;
+    padding: 0;
+}
+
+#album td, #album tr {
+    padding: 0;
+}
+
+#images img {
+    height: 240px;
+    vertical-align: top;
+}
+
+#captions td {
+    background: #807090;
+    color: white;
+}
+
+
+/* Couple hearts */
+#hearts {
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    font-size: 2em;
+}
+
+#hearts a:link, #hearts a:visited {
+    color: #f52887;
+}
+
+#hearts a:hover, #hearts a:active {
+    color: #ff329b;
+}
+
+#heart1 {
+    display: inline-block;
+    transform: rotate(-15deg);
+    -ms-transform:rotate(-15deg);
+    -webkit-transform:rotate(-15deg);
+}
+
+#heart2 {
+    font-size: 0.8em;
+    display: inline-block;
+    transform: rotate(15deg);
+    -ms-transform:rotate(15deg);
+    -webkit-transform:rotate(15deg);
+    position: relative;
+    left: -0.1em;
+}
+
+
+/* Footer */
+#footer {
+    margin: 1em auto;
+    text-align: center;
+}
+
+
+/* Style for computer displays */
+@media screen and (min-width: 600px) {
+    #main {
+        width: 70%;
+    }
+
+    #content {
+        width: 70%;
+    }
+
+    #hearts {
+        top: 5%;
+        left: 17%;
+        font-size: 6em;
+    }
+}

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<!--
+SIMPLIFIED BSD LICENSE
+
+Copyright (c) 2014 Susam Pal & Sunaina Pai
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+  1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in
+     the documentation and/or other materials provided with the
+     distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<html>
+<head>
+<title>Sunaina & Susam</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<script src="js/hearts.js"></script>
+<script>
+window.onload = function()
+{
+    var heartsAnimateElement = document.getElementById('animate')
+    heartsAnimateElement.onclick = Hearts.animate
+}
+</script>
+<noscript>
+<link rel="stylesheet" type="text/css" href="css/noscript.css">
+</noscript>
+</head>
+<body>
+<div id="main">
+    <h1>Sunaina &amp; Susam</h1>
+    <div id="content">
+
+        <div id="welcome">
+            <a href="https://www.facebook.com/photo.php?fbid=10152485494620937" target="_blank"><img
+               src="img/us-ubcity-h600.jpg"
+               alt="us-ubcity"
+               title="Together at UB City on Susam's birthday"></a>
+            <p>
+            Welcome to our wedding website!
+            </p><p>
+            We are getting married. We are excited to share our special
+            day with our friends and family.
+            </p>
+        </div> <!-- End welcome -->
+
+        <div id="ceremony">
+            <h2>Wedding Ceremony</h2>
+            <h3>
+                <span class="sunaina">Sunaina</span> &amp;
+                <span class="susam">Susam</span>
+            </h3>
+            <div>
+            cordially invite you and your family on the auspicious
+            occasion of our marriage<br>
+            on Friday, 11 July 2014, at Vidyadhiraja Sabhagriha,
+            Dwarakanath Bhavan,<br>
+            K. R. Road, Basavangudi, Bangalore
+            </div>
+
+            <h3>Date &amp; Time</h3>
+            <table class="shrinkwrap">
+                <tr><td>Wedding Date</td><td>:</td><td>Friday, 11 July 2014</td></tr>
+                <tr><td>Muhurtham</td><td>:</td><td>12:24 PM</td></tr>
+                <tr><td>Lunch</td><td>:</td><td>01:00 PM</td></tr>
+            </table>
+
+            <h3>Venue</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.934968759084!2d77.573568!3d12.940868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15f1d3b294a3%3A0x2435e678225b8e8e!2sDwarakanath+Bhavan+Committee!5e0!3m2!1sen!2s!4v1403472417772"
+                    class="map" id="googlemap"></iframe>
+            <noscript>
+                <a href="https://goo.gl/maps/n7kIO" target="_blank"><img
+                src="img/venue-map.jpg" alt="venue-map" class="map" id="staticmap"></a>
+            </noscript>
+            <div class="shrinkwrap">
+            Dwarakanath Bhavan<br>
+            K. R. Road, Basavangudi<br>
+            Bangalore &ndash; 560004
+            </div>
+        </div> <!-- End ceremony -->
+
+        <div id="story">
+            <h2>Our Story</h2>
+            <div class="shrinkwrap">
+                <p>
+                We met each other at RSA. As we got to know each other
+                we found that we have many shared interests since
+                childhood, from collecting magnets and love for water
+                bodies to listening to Coldplay and travelling. As time
+                went by, we graduated from talking about programming and
+                puzzles to watching movies, visiting museums and a
+                number of hot spots in Bangalore.
+                </p><p>
+                One day, one of us (the guy of course) proposed the
+                other across a coffee table. The girl thought a lot and
+                asked a lot of questions but didn't say anything that
+                would make the guy's day. Like all popular love stories,
+                the girl took her time. The guy kept trying. He wrote a
+                song for her.
+                </p>
+                <div class="center">
+                    <audio controls="controls" preload="metadata">
+                        <source src="music/twinkle-twinkle-little-star.mp3" type="audio/mpeg">
+                        <source src="music/twinkle-twinkle-little-star.ogg" type="audio/ogg">
+                        <embed  src="music/twinkle-twinkle-little-star.mp3" type="audio/mpeg"
+                                height="45" autostart="false" loop="false">
+                    </audio>
+                    <div class="music">
+                        <!-- MP3 -->
+                        <a href="music/twinkle-twinkle-little-star.mp3"><img
+                           src="img/audio.png"
+                           alt="audio"
+                           title="Download audio in MP3 format"
+                           style="position: relative; top: 3px"></a>
+                        <a href="music/twinkle-twinkle-little-star.mp3"
+                           title="Download audio in MP3 format">MP3</a>
+                        <span class="separator">|</span>
+
+                        <!-- Score -->
+                        <a href="music/twinkle-twinkle-little-star.pdf"><img
+                           src="img/gclef.png"
+                           alt="score"
+                           title="PDF sheet music for 'Twinkle twinkle little star'"
+                           style="position: relative; top: 5px; height: 22px"></a>
+                        <a href="music/twinkle-twinkle-little-star.pdf"
+                           title="PDF sheet music for 'Twinkle twinkle little star'">Score</a>
+                    </div>
+                </div>
+                <p>
+                She listened to it and smiled. A few months passed.
+                One day, she said those three magic words back to the
+                guy. We have been together since then.
+                </p><p>
+                Together we experienced our first snow. Together we have
+                learnt to spot the planets in the night sky. Together
+                we have pondered upon the mysteries of the universe we
+                live in. Together we have grown to be better persons.
+                Together we have promised to be true to each other in
+                good times and in bad, in sickness and in health, and
+                love and honour each other all the days of our lives.
+                </p>
+            </div>
+        </div> <!-- End story -->
+
+        <div id="album">
+            <h2>Our Album</h2>
+            <div>
+            <table>
+            <tr id="images">
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485482350937" target="_blank"><img
+                       src="img/sunaina-snowcity-h240.jpg" alt="sunaina-snowcity"
+                       title="Having fun at Snow City, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485481360937" target="_blank"><img
+                       src="img/susam-snowcity-h240.jpg" alt="susam-snowcity"
+                       title="Having fun at Snow City, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485482925937" target="_blank"><img
+                       src="img/sunaina-ants-h240.jpg" alt="sunaina-ants"
+                       title="An evening at the Ants Cafe, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485483430937" target="_blank"><img
+                       src="img/sunaina-birthday-h240.jpg" alt="sunaina-birthday"
+                       title="Sunaina's birthday celebration at Toit, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485482295937" target="_blank"><img
+                       src="img/team-karting-h240.jpg" alt="team-karting"
+                       title="Go-karting at Torq03, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485483680937" target="_blank"><img
+                       src="img/sunaina-goa-h240.jpg" alt="sunaina-goa"
+                       title="At Chapora Fort, Goa"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485484135937" target="_blank"><img
+                       src="img/susam-goa-h240.jpg" alt="susam-goa"
+                       title="At Chapora Fort, Goa"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485484540937" target="_blank"><img
+                       src="img/susam-bbq-h240.jpg" alt="susam-bbq"
+                       title="We love the starters at Barbeque Nation. Who doesn't!"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485484930937" target="_blank"><img
+                       src="img/sunaina-bbq-h240.jpg" alt="sunaina-bbq"
+                       title="We love the starters at Barbeque Nation. Who doesn't!"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485485670937" target="_blank"><img
+                       src="img/us-snow-h240.jpg" alt="us-snow"
+                       title="At Smithsonian's National Museum of Natural History, Washington, D.C."></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485486175937" target="_blank"><img
+                       src="img/reston-group-h240.jpg" alt="reston-group"
+                       title="At Herndon, Virginia"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485486800937" target="_blank"><img
+                       src="img/susam-snow-h240.jpg" alt="susam-snow"
+                       title="At RSA, Reston, Virginia"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485486825937" target="_blank"><img
+                       src="img/sunaina-snow-h240.jpg" alt="sunaina-snow"
+                       title="At RSA, Reston, Virginia"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485487145937" target="_blank"><img
+                       src="img/susam-reston-h240.jpg" alt="susam-reston"
+                       title="Fine wine and delicious turkey at The Tasting Room Wine Bar & Shop, Library Street, Reston"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485487555937" target="_blank"><img
+                       src="img/sunaina-reston-h240.jpg" alt="sunaina-reston"
+                       title="Fine wine and delicious turkey at The Tasting Room Wine Bar & Shop, Library Street, Reston"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485487975937" target="_blank"><img
+                       src="img/susam-easterndiner-h240.jpg" alt="susam-easterndiner"
+                       title="On new year's eve, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485488790937" target="_blank"><img
+                       src="img/team-shiro-h240.jpg" alt="team-shiro"
+                       title="Lunch at Shiro, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485485325937" target="_blank"><img
+                       src="img/us-toit-h240.jpg" alt="us-toit"
+                       title="Together at Toit, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485489755937" target="_blank"><img
+                       src="img/susam-vday-h240.jpg" alt="susam-vday"
+                       title="Valentine's day at Zheng, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485495470937" target="_blank"><img
+                       src="img/geek-heart-h240.jpg" alt="geek-heart"
+                       title="Susam plots his heart with segments of quadratic and quartic curves for his Cutie Pai"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485490085937" target="_blank"><img
+                       src="img/sunaina-vday-h240.jpg" alt="sunaina-vday"
+                       title="Valentine's day at Zheng, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485490820937" target="_blank"><img
+                       src="img/susam-grove-h240.jpg" alt="susam-grove"
+                       title="At Coconut Grove, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485491695937" target="_blank"><img
+                       src="img/sunaina-grove-h240.jpg" alt="sunaina-grove"
+                       title="At Coconut Grove, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485491855937" target="_blank"><img
+                       src="img/family1-h240.jpg" alt="family1"
+                       title="Left to right: Susam's mom, Sunaina's mom, Sunaina's dad, Susam's dad, Susam, Sunaina, Sunaina's brother"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485492350937" target="_blank"><img
+                       src="img/family2-h240.jpg" alt="family2"
+                       title="Left to right: Susam, Sunaina, Sunaina's brother, Susam's mom, Sunaina's mom, Sunaina's dad, Susam's dad"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485493585937" target="_blank"><img
+                       src="img/us-btm-h240.jpg" alt="us-btm"
+                       title="An evening at BTM Layout, Bangalore"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485493835937" target="_blank"><img
+                       src="img/susam-birthday-h240.jpg" alt="susam-birthday"
+                       title="Susam cutting his birthday cake"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485494270937" target="_blank"><img
+                       src="img/us-birthday-h240.jpg" alt="us-birthday"
+                       title="Together on Susam's birthday"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485494620937" target="_blank"><img
+                       src="img/us-ubcity-h600.jpg" alt="us-ubcity"
+                       title="Together at UB City on Susam's birthday"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485494890937" target="_blank"><img
+                       src="img/sunaina-ubcity-h240.jpg" alt="sunaina-ubcity"
+                       title="Sunaina at UB City on Susam's birthday"></a></td>
+
+                <td><a href="https://www.facebook.com/photo.php?fbid=10152485495035937" target="_blank"><img
+                       src="img/group-ubcity-h240.jpg" alt="group-ubcity"
+                       title="Sudarshan (Sunaina's brother), Sunaina and Susam at UB City on Susam's birthday"></a></td>
+
+            </tr><tr id="captions">
+                <td>Fun at Snow City</td>
+                <td>Fun at Snow City</td>
+                <td>At Ants Cafe</td>
+                <td>Sunaina's birthday</td>
+                <td>After go-karting</td>
+                <td>At Chapora Fort, Goa</td>
+                <td>At Chapora Fort, Goa</td>
+                <td>Starters &hellip;</td>
+                <td>&hellip; and hidden smiles</td>
+                <td>Our first snow</td>
+                <td>At Herndon</td>
+                <td>At RSA, Reston</td>
+                <td>At RSA, Reston</td>
+                <td>Good times at Reston</td>
+                <td>Good times at Reston</td>
+                <td>New year's eve 2014</td>
+                <td>Lunch at Shiro</td>
+                <td>Together at Toit</td>
+                <td>Valentine's day dinner</td>
+                <td>Susam's heart for Sunaina</td>
+                <td>Valentine's day dinner</td>
+                <td>Ginger Ale</td>
+                <td>At Coconut Grove</td>
+                <td>Our families meet &hellip;</td>
+                <td>&hellip; and dine together</td>
+                <td>All set to shop for the wedding</td>
+                <td>Susam's birthday</td>
+                <td>Susam's birthday</td>
+                <td>At UB City</td>
+                <td>At UB City</td>
+                <td>Group selfie</td>
+            </tr>
+            </table>
+            </div>
+            <p class="center">
+            (Scroll right to see all pictures.)
+            </p>
+        </div> <!-- End album -->
+
+        <div id="guestbook">
+            <h2>Guestbook</h2>
+            <p class="center">
+            (Please sign our guestbook by writing a comment below.)
+            </p>
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'sunaina-and-susam'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+        </div> <!-- End guestbook -->
+
+        <div id="hearts">
+            <a id="animate" href="#"><span id="heart1">&hearts;</span><span
+                                           id="heart2">&hearts;</span></a>
+        </div>
+
+    </div> <!-- End content -->
+</div> <!-- End main -->
+<div id="footer">
+    <div>&copy; 2014 Susam Pal &amp; Sunaina Pai</div>
+</div>
+</body>
+</html>
